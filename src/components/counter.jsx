@@ -4,6 +4,12 @@ class Counter extends Component {
   state = {
     count: 0
   };
+  
+
+  styles={
+      fontSize=50,
+      fontWeight:"bold"
+  };
 
   render() {
     return (
@@ -21,3 +27,4 @@ class Counter extends Component {
 }
 
 export default Counter;
+//question , depending on the value of the count change the color of the count button
