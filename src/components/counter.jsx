@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class Counter extends Component {
   state = {
-    count: 0
+    count: 0,
+    tags: ["tag1", "tag2", "tag3"]
   };
 
   render() {
@@ -30,3 +31,4 @@ class Counter extends Component {
 
 export default Counter;
 //question , depending on the value of the count change the color of the count button
+//question 2, add map method to loop through the tags
